@@ -5,4 +5,4 @@ controller:
       http: http
       https: http
     annotations:
-      external-dns.alpha.kubernetes.io/hostname: nginx-internal.prod-sa1.osmose.paytmlabs.com
+      external-dns.alpha.kubernetes.io/hostname: nginx-lb.test.fernandocosta.com
