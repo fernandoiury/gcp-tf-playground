@@ -1,5 +1,5 @@
 #!/bin/bash
-gcloud container clusters get-credentials fernando-tests --region us-central1
+gcloud container clusters get-credentials fernando-tests-development-gke --region us-central1
 kubectl config current-context | grep gke | grep fernando-tests &> /dev/null
 if [[ $? -ne 0 ]]; then
   echo NOT fernando-tests... exiting
