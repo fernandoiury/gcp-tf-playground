@@ -1,0 +1,6 @@
+export TF_VAR_org_id=XXXXXXXXXXXX
+export TF_VAR_billing_account=ZZZZZZZZZZZZZ
+export TF_ADMIN=fernando-tests
+export TF_CREDS=~/.config/gcloud/fernando-tests-ef69683fa3db.json
+export GOOGLE_APPLICATION_CREDENTIALS=${TF_CREDS}
+export GOOGLE_PROJECT=${TF_ADMIN}
